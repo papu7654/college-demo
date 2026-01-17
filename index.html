@@ -1,1 +1,69 @@
-<p>This is a new paragraph</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spoty.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+        <h1>Songs</h1>
+        <div class="songContainer">
+            <div class="songItems">
+                <img src="dora.jpg" alt="1">
+                <span class="songName">Doraemon</span>
+                <span class="songListPlay"><span class="timeStamp">0:28 <i id="1" class="far songItemPlay fa-play-circle"></i></span></i></span>
+            </div>
+             <div class="songItems">
+                <img src="" alt="1">
+                <span class="songName"></span>
+                <span class="songListPlay"><span class="timeStamp">05:05 <i id="2" class="far songItemPlay fa-play-circle"></i></span></i></span>
+            </div>
+             <div class="songItems">
+                <img src="" alt="1">
+                <span class="songName"></span>
+                <span class="songListPlay"><span class="timeStamp">03:53 <i id="3" class="far songItemPlay fa-play-circle"></i></span></i></span>
+            </div>
+             <div class="songItems">
+                <img src="" alt="1">
+                <span class="songName"></span>
+                <span class="songListPlay"><span class="timeStamp">03:31 <i id="4" class="far songItemPlay fa-play-circle"></i></span></i></span>
+            </div>
+             <div class="songItems">
+                <img src="" alt="1">
+                <span class="songName"></span>
+                <span class="songListPlay"><span class="timeStamp">03:37 <i id="5" class="far songItemPlay fa-play-circle"></i></span></i></span>
+            </div>
+        </div>
+        </div>
+        <div class="SongList"></div>
+        <div class="SongBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="bar"  value="0" min="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+             <i class="fas fa-2x fa-step-backward" id="previous"></i>
+             <i class="far fa-2x fa-play-circle" id="masterPlay"></i>
+             <i class="fas fa-2x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="play.gif" width="45px" id="gif"><span id="masterSongName">Zindagi sawar doon</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
